@@ -1,0 +1,144 @@
+body{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1
+{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+h2
+{
+    padding-left: 20px;
+}
+
+.pfp
+{
+    width: 90px;
+    height: 90px;
+    border: 2px solid rgb(253, 149, 253);
+}
+
+.linkname
+{
+    text-align: center;
+    /* justify-content: center; */
+}
+
+figcaption{
+    padding-left: 30px;
+}
+p
+{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30px;
+}
+
+.bordure
+{
+    background-color: rgb(255, 225, 230);
+    padding-right: 30px;
+    border: 3px solid rgb(255, 187, 255);
+    margin-bottom: 6px;
+    
+}
+
+.apparence
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clearing
+{
+    clear: both;
+}
+.image
+{
+    border: 2px black solid;
+    position: relative;
+    float: left;
+    background-color: white;
+}
+
+.pfp:hover {
+    opacity: 0.9;
+  }
+
+
+
+table,
+td {
+    border: 2px solid plum;
+    background-color: rgb(253, 241, 253);
+}
+
+thead,
+tfoot {
+    background-color: purple;
+    color: white;
+}
+
+
+aside
+{
+    margin: 1%;
+    width: 60%;
+    margin-left: 2rem;
+}
+/* CODE CSS HEADER */
+header
+{
+    background-color:  rgb(255, 225, 230);  
+    position: sticky;
+    top: 0%;
+    margin-bottom: 8px;
+    border: 3px solid rgb(255, 187, 255);
+    border-top: none;
+    z-index: 10;
+    
+}
+
+.boxheader
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.header a {
+    float: left;
+    color: rgb(117, 1, 102);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: solid rgb(251, 178, 251);
+    margin-right: 4px;
+    font-size: 12px;
+    margin-left: 328px;
+
+  }
+
+  a:hover
+{
+    color: rgba(137, 43, 226, 0.731);
+}
+
+
+
+/* FIN CODE CSS header */
